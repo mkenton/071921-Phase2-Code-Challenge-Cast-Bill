@@ -18,8 +18,6 @@ export default function App() {
   function setEnlisted(enlistedBill) {
     // console.log(`set bill ${enlistedBill} to enlisted`)
 
-    
-
     let updatedBill = { ...enlistedBill, enlisted: true }
 
     fetch(`http://localhost:8002/bills/${enlistedBill.id}`, {
@@ -36,8 +34,6 @@ export default function App() {
 
   function setDelisted(DelistedBill) {
     // console.log(`set bill ${DelistedBill} to enlisted`)
-
-    
 
     let updatedBill = { ...DelistedBill, enlisted: false }
 
