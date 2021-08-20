@@ -2,7 +2,7 @@ import React from 'react';
 import BillCard from './BillCard'
 
 export default function BillsCast({myBills, onClickBill, onFireBill}) {
-  // Your code here
+  
 
   return (
     <div className="ui segment inverted blue bill-cast">
